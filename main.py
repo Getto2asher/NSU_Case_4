@@ -10,7 +10,7 @@ def even_day(day_num):
 match day_num:
     case 1 | 2 | 3 | 4 | 5:
         print(l.weekday)
-        if even_day(day_num) == True:
+        if even_day(day_num):
             print(l.even_day)
         else:
             print(l.not_even_day)
