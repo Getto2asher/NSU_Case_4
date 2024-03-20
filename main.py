@@ -17,7 +17,7 @@ match day_num:
             pairs = int(input((l.lessons)))
             print(l.mood_var)
             mood = int(input(l.mood))
-            result = pairs // 2 + 1 if mood == 3 else print(l.light_day)
+            result = print(l.Work_day, pairs // 2 + 1) if mood == 3 else print(l.light_day)
             if mood == 1:
                 print(l.mood_variant_1)
             if mood == 2:
